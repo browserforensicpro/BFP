@@ -398,7 +398,21 @@ BFP_WEB/
 ├── config.py                # App constants (name, version, paths)
 ├── requirements.txt         # Python dependencies
 ├── build_exe.py             # PyInstaller build script
-│
+├── BrowserForensicsPro.spec
+├── LICENSE.txt
+├── build/
+    ├── hooks/
+        ├── hook_webview_patch.py
+    ├──insatller/
+        ├── installer.iss
+        ├── version_info.txt
+    ├──scripts/
+        ├── apply_patches.py
+        ├── build_exe.py
+        ├── build_setup.py
+├── assets
+    ├── bfp_icon.ico
+    ├── bfp_logo_full.png
 ├── modules/                 # Data extraction modules
 │   ├── history.py           # Browser history (deduped, with visit timestamps)
 │   ├── downloads.py         # Download history
