@@ -1,0 +1,35 @@
+# UTF-8
+#
+# version_info.txt — Windows EXE version metadata
+# Embedded into BrowserForensicsPro.exe by PyInstaller
+#
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,        # Windows NT
+    fileType=0x1,      # Application
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        u'040904B0',   # English (US) / Unicode
+        [
+          StringStruct(u'CompanyName',      u'Loyola Academy — Cyber Security Dept.'),
+          StringStruct(u'FileDescription',  u'Browser Forensics Pro v1.0'),
+          StringStruct(u'FileVersion',      u'1.0.0.0'),
+          StringStruct(u'InternalName',     u'BrowserForensicsPro'),
+          StringStruct(u'LegalCopyright',   u'Copyright 2025 Sharath Chandra Karnati'),
+          StringStruct(u'OriginalFilename', u'BrowserForensicsPro.exe'),
+          StringStruct(u'ProductName',      u'Browser Forensics Pro'),
+          StringStruct(u'ProductVersion',   u'1.0.0.0'),
+        ]
+      )
+    ]),
+    VarFileInfo([VarStruct(u'Translation', [0x0409, 1200])])
+  ]
+)
